@@ -12,7 +12,7 @@
 #What is the value of the first triangle number to have over five hundred divisors?
 import math
 
-for n in range(12000,20000):
+for n in range(3,20000):
     tri = int((n * (n +1)) / 2)
     divisors = 0
     for i in range (2, math.ceil(math.sqrt(tri)+1)):
